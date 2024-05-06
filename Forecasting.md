@@ -7,7 +7,7 @@
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
-from sklearn.preprocessing import LabelEncoder) 
+from sklearn.preprocessing import OneHotEncoder) 
 Данные можно загрузить с помощью pandas функции read_csv, так как у нас CSV-файл.
 
 **Сдлеаем обзор данных:** Используя head(), info(), and describe(), рассмотрим базовые характеристики набора данных. 
